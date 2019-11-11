@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <keep-alive>
+          <router-link to="/" v-if='$route.meta.keepAlive'>Home</router-link> |
+      </keep-alive>
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
