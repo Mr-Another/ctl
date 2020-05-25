@@ -1,4 +1,4 @@
 module.exports = {
-    title: 'Vue-demo',
-    showSettings:true
+  title: 'Vue-demo',
+  showSettings: true
 }
